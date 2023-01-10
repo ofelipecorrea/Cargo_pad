@@ -1,0 +1,100 @@
+body {
+    border: 0%;
+    background-image: url(../Imagens/background.jpg);
+    background-repeat: no-repeat,;
+    background-size: cover;
+    background-origin: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 2px;
+    position: absolute;
+    transform-style: preserve-3d;
+    ;
+}
+
+@import url('https://fonts.cdnfonts.com/css/north');
+
+#Menu ul {
+    transition: 2s;
+    float: right;
+    font-size: 20px;
+    max-width: 1500px;
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(255,255,255,0);
+    font-family: 'North', sans-serif;
+    display: inline-flex;
+    
+}
+
+
+#Menu ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 1em;
+}
+
+#Menu ul Li a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .6s;
+    border-radius: 40px;
+}
+
+#Menu ul li a:hover {
+    background-color: blue;
+}
+
+#TituloBackground {
+    text-align: center ;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 60px;
+    padding: 1%;
+    font-family: 'North', sans-serif;
+    border-radius: 60px;
+}
+
+#conectar {
+    margin: 30px;
+    transition: background .6s;
+    background-color: rgba(0,0,255,0);
+    font-size: 35px;
+    background-size: contain;
+    padding: 1%;
+    font-family: 'North', sans-serif;
+    transition: 0.5s;
+}
+#conectar:hover {
+    background-color: rgb(0, 0, 255);
+    border-radius: 100px;
+    
+}
+
+#Transportadora {
+    margin: 30px;
+    transition: background .6s;
+    background-color: rgba(0, 0, 255,0);
+    font-size: 35px;
+    background-size: contain;
+    padding: 1%;
+    font-family: 'North', sans-serif;
+    transition: 0.5s;
+    overflow: hidden;
+}
+#Transportadora:hover {
+    background-color: rgb(0, 0, 255);
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'North', sans-serif;
+    font-size: 8px;
+    color: white;
+}
+
